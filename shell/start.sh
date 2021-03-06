@@ -1,1 +1,1 @@
-nohup java -jar demo.jar  &
+nohup java -jar MD5-demo.jar  &

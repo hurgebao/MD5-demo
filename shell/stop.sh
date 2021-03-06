@@ -1,6 +1,6 @@
 #!/bin/bash 
 source /etc/profile
-project=demo.jar
+project=MD5-demo.jar
 echo stop springboot process
 PROCESS=`ps -ef|grep $project|grep -v grep|grep -v PPID|awk '{ print $2}'`
 for i in $PROCESS
